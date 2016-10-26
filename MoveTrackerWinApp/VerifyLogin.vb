@@ -3,6 +3,7 @@ Imports ADODB
 Imports MoveTrackerWinApp.GlobalVar
 Imports ADODB.CursorTypeEnum
 Imports ADODB.LockTypeEnum
+'{-- Process User Credentials--}
 Public Class VerifyLogin
     Friend Function IsActive(ByVal Uname As String, ByVal UPwd As String) As Boolean
         'Dim myConnL As New ManageConn
